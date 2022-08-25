@@ -116,7 +116,7 @@ const Header = () => {
                 </ul>
               </li>
               <li>
-                <a href="/Event" className="flex h-full items-center">
+                <a href="/Event/Menu01" className="flex h-full items-center">
                   <span className="en">Event&News</span>
                   <span className="ko absolute">이벤트&뉴스</span>
                 </a>

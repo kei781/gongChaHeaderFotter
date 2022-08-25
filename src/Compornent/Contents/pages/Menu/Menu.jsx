@@ -1,7 +1,16 @@
-import React from "react";
+import "./Menu.css";
+import Head from "./component/Head.js";
+import Body from "./component/Body";
+import Step from "./component/Step";
 
-const Menu = () => {
-  return <div>Menu입니다.</div>;
-};
+function Menu() {
+  return (
+    <>
+      <Head />
+      <Body />
+      <Step />
+    </>
+  );
+}
 
 export default Menu;

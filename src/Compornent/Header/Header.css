@@ -9,6 +9,7 @@
   background: url(https://www.gong-cha.co.kr/view/gongcha/images/common/header_bg.png)
     0 1px repeat-x;
   border-bottom: 1px solid #eeeeee;
+  z-index: 99999;
 }
 
 .topBar:hover {

@@ -1,0 +1,53 @@
+.step_3 {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  height: 429px;
+}
+
+.step_text {
+  margin-top: 70px;
+  width: 600px;
+}
+
+.step_text > p:first-child {
+  font-weight: 700;
+  font-size: 20px;
+  color: #983b43;
+  margin: 0 0 5px;
+}
+
+.step_text > p:nth-child(2) {
+  font-weight: 700;
+  font-size: 42px;
+  color: #222222;
+  margin: 0 0 26px;
+}
+
+.step_text > p:nth-child(3) {
+  font-size: 16px;
+  color: #666666;
+}
+
+.step_img {
+  margin-top: 55px;
+}
+
+.step_img > p {
+  display: inline-block;
+  margin-left: 50px;
+  position: relative;
+  bottom: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #222222;
+}
+
+.step_img > div {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.step_img > div:nth-child(4) {
+  margin-top: 30px;
+}

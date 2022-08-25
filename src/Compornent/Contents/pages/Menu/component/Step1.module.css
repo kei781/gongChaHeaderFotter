@@ -1,0 +1,49 @@
+.step_1 {
+  width: 1200px;
+  height: 374px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.step_text > p:first-child {
+  font-weight: 700;
+  font-size: 20px;
+  color: #983b43;
+  margin: 0 0 5px;
+}
+
+.step_text > p:nth-child(2) {
+  font-weight: 700;
+  font-size: 42px;
+  color: #222222;
+  margin: 0 0 26px;
+}
+
+.step_text > p:nth-child(3) {
+  font-size: 16px;
+  color: #666666;
+}
+
+.step_img {
+  display: flex;
+}
+
+.step_img > div {
+  margin: 0 50px;
+  text-align: center;
+}
+
+.teaname {
+  font-weight: 700;
+  font-size: 18px;
+  color: #222222;
+  margin-top: 20px;
+}
+
+.teaeng {
+  font-size: 14px;
+  color: #666666;
+}

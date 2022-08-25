@@ -1,7 +1,9 @@
 import React from "react";
+import style from "./Store.module.css";
+import Park from "./Park";
 
 const Store = () => {
-  return <div>Store입니다.</div>;
+  return <div className={style.main_store}>{<Park />}</div>;
 };
 
 export default Store;

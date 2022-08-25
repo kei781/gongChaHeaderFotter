@@ -1,0 +1,76 @@
+.Leeimg1 {
+  width: 100%px;
+  height: 264px;
+
+  position: relative;
+}
+.Leediv1 {
+  width: 1200px;
+  margin: 0 auto;
+}
+.Leeli {
+  margin-top: 50px;
+  width: calc(100% / 3);
+  float: left;
+  display: block;
+  list-style: none;
+  font-weight: 800;
+  font-size: 20px;
+  color: silver;
+  text-align: center;
+  border-bottom: 3px solid #e4e4e4;
+  position: relative;
+}
+.Leeli:hover {
+  color: red;
+}
+
+.Leediv2 {
+  color: white;
+  font-size: 50px;
+}
+.Leeimg12 {
+  width: calc(100% / 2);
+  margin-right: 50px;
+}
+.Leedivpi2 {
+  display: inline-block;
+}
+.Leedivpi1 {
+  display: flex;
+  text-align: left;
+}
+.Leedivpi23 > p {
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: black;
+}
+.Leepp {
+  font-size: 17px;
+  font-weight: 700;
+}
+.Leepp1 {
+  font-size: 15px;
+  color: #993b42;
+  text-decoration: underline;
+}
+.Leepp3 {
+  font-size: 15px;
+}
+.Leeasdasd {
+  font-size: 60px;
+  color: white;
+}
+
+.LeeButton2 {
+  width: 300px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: 700;
+  background: #444444;
+  color: white;
+}
+.LeeButton1 {
+  text-align: center;
+  margin-bottom: 80px;
+}

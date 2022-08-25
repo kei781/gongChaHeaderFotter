@@ -1,0 +1,27 @@
+.pageTop {
+  background-image: url(./img/page_top_visual_menu.jpg);
+  width: 100%;
+}
+
+.page {
+  margin: 0 auto;
+  width: 1200px;
+  height: 264px;
+  position: relative;
+}
+
+.pageHeadtext {
+  font-size: 42px;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 100px;
+  font-weight: 700;
+}
+
+.pageBodytext {
+  font-size: 17px;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 155px;
+  font-weight: 700;
+}

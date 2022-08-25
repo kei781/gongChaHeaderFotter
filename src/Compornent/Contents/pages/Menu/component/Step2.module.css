@@ -1,0 +1,93 @@
+.step_2 {
+  background-image: url(../component/img/order_method_step2_back.jpg);
+  background-position: center;
+  display: flex;
+  width: 100%;
+}
+
+.step_body {
+  margin: 0 auto;
+  width: 1200px;
+  height: 638px;
+}
+
+.step_text {
+  margin-top: 70px;
+  width: 380px;
+}
+
+.step_text > p:first-child {
+  font-weight: 700;
+  font-size: 20px;
+  color: #983b43;
+}
+
+.step_text > p:nth-child(2) {
+  font-weight: 700;
+  font-size: 42px;
+  color: #222222;
+  margin-top: -10px
+}
+
+.step_text > p:nth-child(3) {
+  font-size: 16px;
+  color: #666666;
+  margin-top: -10px;
+}
+
+.step_imgbox {
+  width: 820px;
+  margin-left: 380px;
+  position: relative;
+  bottom: 186px;
+}
+
+.step_img {
+  width: 100%;
+  margin: 0 0 -20px;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.step_img > li {
+  width: 260px;
+  height: 239px;
+  padding: 28px 0 0;
+  margin: 0 20px 20px 0;
+  box-sizing: border-box;
+  background: #ffffff;
+  float: left;
+  text-align: center;
+}
+
+.step_img > li > img {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.step_img > li:nth-child(3) {
+  margin-right: 0;
+}
+
+
+.step_img > li:nth-child(6) {
+  margin-right: 0;
+}
+
+.teaname {
+  font-weight: 700;
+  font-size: 18px;
+  color: #222222;
+  margin-top: 3px;
+}
+
+.teaeng {
+  font-size: 14px;
+  color: #666666;
+  margin: 0 0 15px;
+}
+
+.teatext {
+  font-size: 16px;
+  color: #666666;
+}

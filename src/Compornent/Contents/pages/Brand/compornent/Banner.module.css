@@ -1,20 +1,29 @@
 .bannerwrap {
+  height: 850px;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
+  border: 2px solid blue;
+}
+/*////배너 버튼////*/
+.bannerwrap > ul {
+  width: 1200px;
+  margin-top: -425px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .banner {
+  top: 0;
   height: 850px;
   width: 2560px;
   border: 2px solid red;
 }
+
 .bannerMenu {
   margin-top: -50px;
   width: 1200px;
   height: 50px;
-  border: 2px solid red;
 }
 .bannerMenu > ul {
   height: 50px;
@@ -26,17 +35,26 @@
   display: flex;
 }
 
-.bannerMenu > ul > li > a {
-  border: 2px solid blue;
+.bannerMenuButton {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 1px;
+  color: #666666;
+  background: #fdfcfc;
   width: 100%;
   height: 100%;
   font-weight: 600;
 }
 
-.bannerMenu > ul > li > a:active {
+.bannerMenuButtonActive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1px;
   background: #983b43;
   color: #ffffff;
+  width: 100%;
+  height: 100%;
+  font-weight: 600;
 }
